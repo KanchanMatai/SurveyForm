@@ -1,0 +1,47 @@
+.full,.mail,.pass,.mnumber,.gen, .cityselect,.passmatch, .description{
+    background-image:linear-gradient(to right, blue,white) ;
+    color:black;
+   
+    font-family: 'Pacifico', cursive;
+    font-size:25px;
+    background-repeat: no no-repeat;
+}
+#fname, #city, #email, #pword, #num, #gender,#pmatch, #text{
+    background-image:linear-gradient(to right, chartreuse, orange) ;
+    font-size:25px;
+    margin-top:10px;
+    font-family: 'Pacifico', cursive;
+    &:hover{
+        background-image:linear-gradient(to right,red,white) ;
+    }
+}
+#btn{
+    background-color: brown;
+    font-size:25px;
+    color:white;
+}
+.formbox{
+    background-image:url("https://assets.architecturaldigest.in/photos/633178c5a38e47493d55aeb2/16:9/w_1615,h_908,c_limit/SaffronStays%20Ocean%20Pearl,%20Hejamady2.png");
+    background-size: auto;
+    text-align:center;
+    h1{
+        font-family: 'Pacifico', cursive;
+        font-size:25px;
+        background-image:linear-gradient(to right, blue,white) ;
+        &:hover{
+            background-image:linear-gradient(to right,red,white) ;
+        }
+    }
+}
+#sbtn{
+    background-image:linear-gradient(to right, blue,white) ;
+    color:black;
+    border-radius:30%;
+    font-size:25px;
+    height:45px;
+    width:15%;
+    font-family: 'Pacifico', cursive;
+    &:hover{
+        background-image:linear-gradient(to right,red,white) ;
+    }
+}
